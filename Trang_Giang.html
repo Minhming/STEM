@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tràng Giang - Huy Cận</title>
+    <link rel="stylesheet" href="Tho.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar-->
+    <header class="navbar_header" id="header">
+        <a href="#" class="logo">Tràng Giang - Huy Cận</a>
+        <ul>
+          <li><a href="./index.html" onclick="toggle()">Home</a></li>
+          <li><a href="#" onclick="toggle()">Đầu trang</a></li>
+          <li><a href="#about" onclick="toggle()">Giới thiệu</a></li>
+          <li><a href="#accordion" onclick="toggle()">Phân tích</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+
+    <!-- Giới thiệu -->
+    <section class="about" id="about">
+        <div class="about_title">
+            <h2>Giới thiệu</h2>
+        </div>
+        <div class="about_contentBx">
+            <div class="about_content">
+                <p>
+                    <strong>1. Hoàn cảnh sáng tác</strong> <br>
+                    - Bài thơ được viết vào mùa thu năm 1939 <br>
+                    - Cảm hứng sáng tác được khơi gợi từ hình ảnh sông Hồng mênh mông sóng nước, bốn bề bao la, vắng lặng
+                </p>
+
+                <p>
+                    <strong>2. Bố cục</strong> <br>
+                    - Phần 1 (khổ 1): cảnh sông nước và tâm trạng buồn của thi nhân <br>
+                    - Phàn 2 (khổ 2 + 3): cảnh hoang vắng và nỗi cô đơn của nhà thơ <br>
+                    - Phần 3 (khổ 4): cảnh hoàng hôn kì vĩ và tình yêu quê hương, đất nước của nhà thơ
+                </p>
+
+                <p>
+                    <strong>3. Giá trị nội dung</strong> <br>
+                    - Bài thơ bộc lộ nỗi sầu của một cái tôi cô đơn trước thiên nhiên rộng lớn, trong đó thấm đượm tình người, tình đời, lòng yêu nước thầm kín mà thiết tha
+                </p>
+
+                <p>
+                    <strong>4. Giá trị nghệ thuật</strong> <br>
+                    - Bài thơ mang vẻ đẹp vừa cổ điển, vừa hiện đại
+                </p>
+            </div>
+
+            <div class="about_content">
+                <div class="about_imgBx">
+                    <img src="./Pictures/images.jpg" class="about_cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phân tích -->
+    <section id="accordion"" class="accordion container">
+        <div class="about_title">
+            <h2>Phân tích</h2>
+        </div>
+
+        <div class="accordion_container">
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Bâng khuâng trời rộng nhớ sông dài <br>
+                        H.C <br>
+                        Sóng gợn tràng giang buồn điệp điệp,
+                    </h3>
+                </header>
+
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        &rarr; từ láy “điệp điệp”, “song song” mang sắc thái cổ kính Đường thi <br>
+                        &rArr; Gợi liên tưởng về những con sóng cứ loang ra, lan xa, gối lên nhau, miên man. <br>
+                        &rarr; “buồn điệp điệp” >< “nước song song”: nỗi buồn cũng trùng điệp, vô tận như những con sóng <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Con thuyền xuôi mái nước song song, <br>
+                        Thuyền về nước lại, sầu trăm ngả;
+                    </h3>
+                </header>
+    
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        &rarr; Hình ảnh con thuyền nhỏ nhoi lênh đênh trôi dạt trên dòng sông rộng lớn, mênh mông. <br>
+                        &rarr; Con thuyền xuôi mái: con thuyền ko người lái, trôi vô định, lững lờ theo dòng nước <br>
+                        &rArr; trở nên bé nhỏ, mất hút đi giữa dòng sóng nước mênh mông. <br>
+                        &rarr; thuyền + nước chia lìa, xa cách &rArr; cô đơn xa vắng. <br>
+                        &rArr; Gợi ra <strong>“nỗi sầu trăm ngả"</strong>: nỗi buồn tăng cấp thành nỗi sầu chất chứa, chẳng thể vơi                        
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Củi một cành khô lạc mấy dòng.
+                    </h3>
+                </header>
+    
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        + mang nét hiện đại với một hình ảnh rất đời thường: “củi” <br>
+                        + Đảo ngữ đưa hình ảnh bé nhỏ, tầm thường lên đầu  làm nổi bật cái nhỏ nhoi của nó (củi). <br>
+                        + Phép đối: một cành củi khô >< mấy dòng nước càng  sự nhỏ nhoi, cô độc của cành củi + dòng sông mênh mông vô tận. <br>
+                    </p>
+                </div>
+            </div>   
+
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Lơ thơ cồn nhỏ gió đìu hiu,
+                    </h3>
+                </header>
+    
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        &rarr; quang cảnh vắng lặng <br>
+                        + “Lơ thơ”: sự ít ỏi, nhỏ bé, thưa thớt <br>
+                        + “Đìu hiu”: sự quạnh quẽ <br>
+                        &rArr; Gợi ra khung cảnh lạnh lẽo, tiêu điều, hoang vắng. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Đâu tiếng làng xa vãn chợ chiều
+                    </h3>
+                </header>
+    
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        &rarr; âm thanh xa xôi, không rõ rệt <br>
+                        <strong>- Từ “đâu” có nhiều cách hiểu:</strong> <br>
+                        + “Đâu...”: âm thanh xa xôi vọng lại, khao khát, mong mỏi của nhà thơ một chút sự hoạt động, âm thanh sự sống. <br>
+                        + “Đâu có”: phủ định hoàn toàn, chung quanh ko hề có chút gì sống động <br>
+                        + Hình ảnh làng xa và chợ chiều đã vãn: thiếu vắng sự sống, hơi ấm con người; con người xa vắng, mơ hồ <br>
+                        &rarr; thi sĩ khao khát tình người.
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Nắng xuống, trời lên sâu chót vót; <br>
+                        Sông dài, trời rộng, bến cô liêu.
+                    </h3>
+                </header>
+    
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        &rarr; “Nắng xuống, trời lên”: sự chuyển động, mở rộng về không gian &rArr; sự chia lìa. <br>
+                        + Không gian “sâu chót vót”: cách diễn đạt mới mẻ, đầy sáng tạo <br>
+                        + Không gian ko chỉ “cao”, “sâu” mà còn mở ra cả về chiều “dài”, chiều “rộng”: “sông dài, trời rộng”. <br>
+                        + “Bến cô liêu”: không gian thì vô tận nhưng con ng thì bé nhỏ, cô đơn <br>
+                        &rarr; “cô liêu”: diễn tả hết cái bé nhỏ, đơn độc đến tội nghiệp &rArr; kiếp người cô đơn, quạnh hiu
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Bèo dạt về đâu, hàng nối hàng; 
+                    </h3>
+                </header>
+    
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        - “bèo”: hình ảnh thơ cổ điển  sự bấp bênh, nổi trôi của kiếp người vô định giữa dòng đời. <br>
+                        - “về đâu” + “hàng nối hàng”: bèo trôi hàng hàng  sự rợn ngợp trước thiên nhiên, cõi lòng như càng đau đớn, cô đơn. <br>
+                        - Cấu trúc phủ định “không...không” phủ định hoàn toàn những kết nối của con người <br>
+                        - “Bờ xanh tiếp bãi vàng”: thiên nhiên nối tiếp thiên nhiên, không gian bao la, vô cùng tận. Cảnh có thêm màu sắc nhưng chỉ càng buồn hơn, chia li hơn. <br> 
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Mênh mông không một chuyến đò ngang.
+                    </h3>
+                </header>
+    
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        - “Không một chuyến đò ngang”, “không cầu”: không có chút sự sống của con người, không có sự giao hòa, kết nối <br>
+                        - Cấu trúc phủ định “không...không” phủ định hoàn toàn những kết nối của con người.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Không cầu gợi chút niềm thân mật, <br>
+                        Lặng lẽ bờ xanh tiếp bãi vàng.
+                    </h3>
+                </header>
+    
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        - <strong>“Bờ xanh tiếp bãi vàng”</strong>: thiên nhiên nối tiếp thiên nhiên, không gian bao la, vô cùng tận. <br>
+                        &rarr; Cảnh có thêm màu sắc nhưng chỉ càng buồn hơn, chia li hơn <br>
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Lớp lớp mây cao đùn núi bạc
+                    </h3>
+                </header>
+    
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        - Bút pháp chấm phá cổ điển: mây trắng, cánh chim chiều <br>
+                        -  <strong>“Mây cao”</strong> chồng chất tầng tầng <strong>“lớp lớp”</strong> đang “đùn” thành <strong>“núi bạc”</strong>: những núi mây trắng được ánh nắng chiếu vào như dát bạc, tạo vẻ đẹp hùng vĩ, tráng lệ, nên thơ. <br>
+                        -  <strong>“đùn”</strong>: động từ khiến mây như có chuyển động, có nội lực từ bên trong, từng lớp cứ đùn đùn lên. <br>
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Chim nghiêng cánh nhỏ: bóng chiều sa
+                    </h3>
+                </header>
+    
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        - Hình ảnh cánh chim chiều: h/a quen thuộc trong thơ cổ: không chỉ báo hiệu thời gian mà còn gợi ra không gian bao la vô cùng, vô tận. <br>
+                        - <strong>H/a “chim nghiêng cánh nhỏ” có thể hiểu theo 2 nghĩa”:</strong><br>
+                        + Hình ảnh cánh chim nghiêng lệch vì chở nặng ráng chiều <br>
+                        + Hình ảnh chim nghiêng cánh chao liệng như kéo cả bóng chiều sa xuống mặt sông. <br>
+
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Lòng quê dợn dợn vời con nước,
+                    </h3>
+                </header>
+    
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        - “Lòng quê”: tình cảm với quê hương <br>
+                        - <strong>“Lòng quê dợn dợn”</strong>: tình cảm của nhà thơ như đang trào lên theo từng đợt sống.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion_item">
+                <header class="accordion_header">
+                    <i class="bx bx-plus accordion_icon"></i>
+                    <h3 class="accordion_title">
+                        Không khói hoàng hôn cũng nhớ nhà.
+                    </h3>
+                </header>
+    
+                <div class="accordion_content">
+                    <p class="accordion_description">
+                        - Huy Cận đã mượn ý thơ của nhà thơ Thôi Hiệu đời Đường nhưng lại có những cách tân mới mẻ <strong>“Không khói hoàng hôn cũng nhớ nhà”</strong>:
+                        Ko cần cái cớ là khói sóng mới nhớ quê mà nỗi nhớ quê luôn thường trực trong tâm trí <br>
+                        &rarr; HC nhớ quê hương ngay trên chính quê hương của mình <br>
+                        &rArr; Nét tâm trạng chung “nỗi buồn thế hệ” của các nhà thơ Mới (nước mất nhà tan, nhân dân nô lệ, chưa đủ niềm tin vào con đường cách mạng) 
+                    </p>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <script src="Tho.js"></script>
+</body>
+</html>

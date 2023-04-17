@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Văn :0</title>
+    <link rel="stylesheet" href="STEM.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <a href="#" class="logo">Từ điển THƠ MỚI</a>
+    <ul>
+      <li><a href="#home" onclick="toggle()">Home</a></li>
+      <li><a href="#about" onclick="toggle()">About</a></li>
+      <li><a href="#services" onclick="toggle()">Services</a></li>
+      <li><a href="#team" onclick="toggle()">Team</a></li>
+      <!-- <li><a href="#contact" onclick="toggle()">Contact</a></li> -->
+    </ul>
+    <div class="toggle" onclick="toggle()"></div>
+  </header>
+  
+  <!-- Banner -->
+  <section class="banner" id="home">
+    <h2>Học Văn <br><span>Không Khó</span></h2>
+  </section>
+  
+  <!-- About -->
+  <section class="sec" id="about">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>Lời giới thiệu</h3>
+        <p>
+          Ngữ Văn là môn học khó nhất trong cuộc đời của học sinh. Đôi khi nó cũng là môn học ám ảnh nhất.
+          Thấu hiểu điều đó, chúng tôi đã quyết định bắt tay xây dựng trang web này nhằm cung cấp những kiến
+          thức cần thiết cho các bạn học sinh, từ đó san sẻ một phần gánh nặng trong việc học Ngữ Văn.
+        </p>
+        <a href="https://docs.google.com/document/d/1WYsueVTkH2SIM_IyjMFeGFo82RWWi5LPBjXhBbRrcWQ/edit" class="btn">Tìm hiểu thêm</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carousel -->
+  <section class="sec">
+    <div class="slider_container">
+      
+      <input type="radio" id="i1" name="images" checked />
+      <input type="radio" id="i2" name="images" />
+      <input type="radio" id="i3" name="images" />
+      <input type="radio" id="i4" name="images" />
+      
+      <div class="slider_content" id="one">			
+        <h2>1. Sự ra đời</h2>
+        <p>
+          - Sự đổi mới tư tưởng sinh hoạt, tiếp xúc với văn học lãng mạn Pháp <br>
+          - 1932, phong trào thơ Mới ra đời
+        </p>
+        
+        <label class="prev" for="i4"><span>&#x2039;</span></label>
+        <label class="next" for="i2"><span>&#x203a;</span></label>	
+      </div>
+      
+      <div class="slider_content" id="two">
+        <h2>2. Quá trình phát triển</h2>
+        <p>
+          - 1932 – 1935: đấu tranh lí luận, chứng minh thực tiễn <br>
+          - 1936- 1939: giai đoạn viên mãn <br>
+          - 1940 – 1945: giai đoạn thoái trào
+        </p>
+            
+        <label class="prev" for="i1"><span>&#x2039;</span></label>
+        <label class="next" for="i3"><span>&#x203a;</span></label>
+      </div>
+              
+      <div class="slider_content" id="three">
+          <h2>3. Đặc trưng cơ bản</h2>
+          <p>
+            - Đặc sắc nghệ thuật: <br>
+            + Thể loại <br>
+            + Hiệp vần: gieo nhiều vần, không theo trật tự <br>
+            + Ngôn từ: Thế giới nghệ thuật giàu giá trị <br>
+          </p>
+                          
+          <label class="prev" for="i2"><span>&#x2039;</span></label>
+          <label class="next" for="i4"><span>&#x203a;</span></label>
+      </div>
+  
+      <div class="slider_content" id="four">
+        <h2>4. Hệ thống thi pháp</h2>
+        <p>
+          - Thơ mới là thơ của cảm xúc, thơ của cái tôi, thơ của thành thực và tự do <br>
+          - Giá trị nội dung: giải phóng cái tôi, bản ngã, khát vọng tự do <br>
+          - Nghệ thuật: cách tân
+        </p>
+                        
+        <label class="prev" for="i3"><span>&#x2039;</span></label>
+        <label class="next" for="i1"><span>&#x203a;</span></label>
+      </div>
+  
+      <div id="nav_slide">
+          <label for="i1" class="dots" id="dot1"></label>
+          <label for="i2" class="dots" id="dot2"></label>
+          <label for="i3" class="dots" id="dot3"></label>
+          <label for="i4" class="dots" id="dot4"></label>
+      </div>
+            
+    </div>
+  </section>
+  
+  <!-- Services -->
+  <section class="sec" id="services">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>Sản phẩm mẫu</h3>
+        <p>
+          Loạt tác phẩm chủ đề thơ mới
+        </p>
+      </div>
+
+      <div class="services">
+        <div class="box">
+          <a href="./Voi_vang.html">
+            <div class="iconBx">
+              <img src="./Pictures/book.png">
+            </div>
+
+            <div class="content">
+              <h2>Vội vàng</h2>
+              <p>
+                Tác giả: Xuân Diệu <br>
+                Sáng tác: 1938 <br>
+                Thể thơ: Tự do 
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="Trang_Giang.html">
+            <div class="iconBx">
+              <img src="./Pictures/book.png">
+            </div>
+
+            <div class="content">
+              <h2>Tràng Giang</h2>
+              <p>
+                Tác giả: Huy Cận <br>
+                Sáng tác: 1939 <br>
+                Thể thơ: Thơ bảy chữ
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="Day_thon_Vi_Da.html">
+            <div class="iconBx">
+              <img src="./Pictures/book.png">
+            </div>
+
+            <div class="content">
+              <h2>Đây thôn Vĩ Dạ</h2>
+              <p>
+                Tác giả: Hàn Mạc Tử <br>
+                Sáng tác: 1938 <br>
+                Thể thơ: 7 chữ
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Team -->
+  <section class="sec" id="team">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>Thành viên</h3>
+        <p>Lớp 11A3 trường THCS & THPT Nguyễn Siêu</p>
+      </div>
+
+      <div class="teamBx">
+        <div class="member">
+
+          <div class="imgBx">
+            <img src="./Pictures/337648660_168458569023158_2777765892520840773_n.jpg">
+          </div>
+
+          <div class="details">
+            <div>
+              <h2>Lê Tuấn Minh <br><span>Website Designer</span></h2>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="member">
+
+          <div class="imgBx">
+            <img src="./Pictures/340882700_834023138036813_793813310412539714_n.jpg">
+          </div>
+
+          <div class="details">
+            <div>
+              <h2>Đỗ Thùy Linh <br><span>Content creator</span></h2>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <!-- Dang phat trien -->
+  <!-- <section class="sec contact" id="contact">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>Please send feedback</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="contactForm">
+        <form>
+          <div class="row100">
+            <div class="inputBx50">
+              <input type="text" name="" placeholder="Full Name">
+            </div>
+
+            <div class="inputBx50">
+              <input type="text" name="" placeholder="Email Address">
+            </div>
+          </div>
+
+          <div class="row100">
+            <div class="inputBx100">
+              <textarea placeholder="Message"></textarea>
+            </div>
+          </div>
+
+          <div class="row100">
+            <div class="inputBx100">
+              <input type="submit" value="Send">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section> -->
+
+  <script src="STEM.js"></script>
+</body>
+</html>
