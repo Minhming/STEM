@@ -45,6 +45,10 @@ body {
     color: var(--text-color);
 }
 
+.sec {
+    padding: 100px 50px 50px 50px;
+}
+
 /* Navbar */
 .navbar_header {
 position: fixed;
@@ -108,8 +112,6 @@ color: #000;
 .about {
     height: fit-content;
     position: relative;
-    margin-top: 160px;
-    margin-bottom: 85px;
 }
 .about_title {
     width: 100%;
@@ -153,6 +155,12 @@ color: #000;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
+}
+
+.about .about_contentBx2 {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .about .about_contentBx .about_content {
